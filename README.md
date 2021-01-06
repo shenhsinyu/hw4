@@ -16,6 +16,16 @@
 - After training, you must use the same parameter to test the model, run `python3 sr.py --file="your image path"` and you can get upscale image for the low resolution image in the output dir.
 - It will genertate 6 image for each lr image, the image named result is the upscale one.
 
+## result
+low resolution image 
+
+![image](https://github.com/shenhsinyu/hw4/blob/main/00-lr.png)
+
+
+high resolution image
+
+![image](https://github.com/shenhsinyu/hw4/blob/main/00.png)
+
 ## reference
 - https://github.com/jiny2001/dcscn-super-resolution
 
