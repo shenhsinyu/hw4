@@ -10,7 +10,7 @@
 
 ## train
 - First, go to `arg.py` to set the parameter you want, like scale, lr, number of filter...
-- Then run `python3 train.py` and start training.
+- Then run `python3 augmentation.py --dataset="your dataset dir" --augment_level="you can choose 4/8"` and start training.
 
 ## inference
 - After training, you must use the same parameter to test the model, run `python3 sr.py --file="your image path"` and you can get upscale image for the low resolution image in the output dir.
